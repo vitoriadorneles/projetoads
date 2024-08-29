@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="./css/extends.css">
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <ul class="navbar-links">
+                <li><a href="#header">Início</a></li>
+                <li><a href="#about">Sobre Mim</a></li>
+                <li><a href="#education">Formação</a></li>
+                <li><a href="#projects">Portifólio</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HEADER -->
+    <!-- cabeçalho lado esquerdo -->
+    <header id="header" >
+        <div class="header">
+            <h1>Olá! Sou Vitória Dorneles</h1>
+            <h2>Estudante de Análise e Desenvolvimento de Sistemas.</h2>
+        </div>
+    </header>
+
+    <!-- SOBRE MIM -->
+    <section id="about" class="about max-width">
+        <div class="about-link">
+            <h2>Além do codigo, quem sou eu?</h2>
+            <p>Conecte-se comigo</p>
+            <ul>
+                <li><a href="https://www.linkedin.com/mynetwork/grow/" target="_blank"><img src="./assets/linkedin.svg" alt="linkedin"></a></li>
+            </ul>
+        </div>
+        <div class="about-me">
+            <p>
+                Sou estudante de Análise e Desenvolvimento de Sistemas, tenho 25 anos, moro no interior de MG e
+                com uma paixão enorme por tecnologia. Minha área de maior interesse é o
+                desenvolvimento web front-end, onde pretendo seguir carreira. 
+                Adoro transformar ideias em interfaces visuais atraentes e funcionais,
+                sempre buscando aprimorar minhas habilidades e conhecimentos.
+            </p>
+            <p>
+                Sou apaixonado pelas infinitas possibilidades que o desenvolvimento web 
+                oferece e minha meta é, um dia, ter minha própria empresa nesse campo. 
+                Além dos estudos, dedico meu tempo livre à leitura de livros, 
+                aproveitando momentos com a família e saindo com os amigos.
+            </p>
+        </div>
+    </section>
+
+    <!-- formação -->
+    <section id="education" class="education">
+        <div class="education-content">
+            <h2 class="title">
+                Cursos e Formação
+            </h2>
+            <ul>
+                <li>Ensino Medio Completo</li>
+                <li>Curso de Ingles Intermediario na Wizard Indiomas</li>
+                <li>Cursando ADS na UNINTER</li>
+                <li>Cursando Desenvolvimento Fron-End na plataforma Udemy</li>
+
+            </ul>
+        </div>
+    </section>
+
+    <!-- portifolio -->
+    <section class="projects" id="projects">
+        <div class="projects-content">
+            <h2>Projetos</h2>
+            <p>Alguns projetos que ja realizei</p>
+        </div>
+        <ul>
+            <li>
+                <div class="image">
+                    <img src="./assets/projeto relogio.png" alt="Relógio">
+                </div>
+                <div class="project-info">
+                    <h3>Projeto relógio</h3>
+                    <p>
+                        Este projeto foi desenvolvido durante as aulas para aprofundar meus conhecimentos em JavaScript,
+                        explorando a lógica de programação aplicada ao desenvolvimento de funcionalidades interativas.
+                    </p>
+                </div>
+            </li>
+            <li class="reversed">
+                <div class="image">
+                    <img src="./assets/projeto extensionista.png" alt="Formulario de coleta de residuo">
+                </div>
+                <div class="project-info">
+                    <h3>Projeto extensionista</h3>
+                    <p>
+                        Desenvolvido como parte de uma Atividade Extensionista, este projeto envolve um formulário de 
+                        coleta de resíduos, destacando-se pela aplicação prática de habilidades de design de interface e usabilidade,
+                    </p>
+                </div>
+            </li>
+            <li>
+                <div class="image">
+                    <img src="./assets/prototipo interativo.png" alt="Aplicativo de venda">
+                </div>
+                <div class="project-info">
+                    <h3>Protótpo de aplicativo de venda</h3>
+                    <p>
+                        Este protótipo interativo, criado no Figma e inspirado em um site real, foi projetado para
+                        aprimorar minhas habilidades em prototipagem e UX/UI, com foco em criar interfaces funcionais e intuitivas.
+                    </p>
+                </div>
+            </li>
+            <li class="reversed">
+                <div class="image">
+                    <img src="./assets/blog semantico.png" alt="Blog Semantico">
+                </div>
+                <div class="project-info">
+                    <h3>Projeto blog semântico</h3>
+                    <p>
+                        Este projeto foi desenvolvido para praticar HTML semântico e CSS, com ênfase na criação de layouts acessíveis 
+                        e bem-estruturados, fortalecendo minhas habilidades em design front-end.
+                    </p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contato -->
+    <section id="contact" class="contact">
+        <h3>Vamos conversar?</h3>  
+        <p>Será um prazer te responder.</p>
+        <form action="mailto:vitoriadorneles.testes@gmail.com" method="post" enctype="text/plain" id="contact-form" class="form">
+            <div class="contact-container">
+                <label for="name">Nome: <span class="required-field">*</span></label>
+                <input type="text"
+                    name="name"
+                    id="name"
+                    class="input"
+                    placeholder="Digite seu nome"
+                    minlength="1"
+                    maxlength="50"
+                    required
+                    autocomplete="name">
+            </div>
+            <div class="contact-container">
+                <label for="fone">Telefone: <span class="required-field">*</span></label>
+                <input type="tel"
+                    name="fone"
+                    id="fone"
+                    class="input"
+                    placeholder="(99) 99999-9999"
+                    maxlength="15"
+                    required
+                    autocomplete="tel"/>
+            </div>
+            <div class="contact-container">
+                <label for="email">Email: <span class="required-field">*</span></label>
+                <input type="email"
+                    name="email"
+                    id="email"
+                    class="input"
+                    placeholder="Digite seu email"
+                    minlength="1"
+                    maxlength="50"
+                    required
+                    autocomplete="email"/>
+            </div>
+            <div class="contact-container">
+                <label for="message">Mensagem: <span class="required-field">*</span> </label>
+                <textarea 
+                name="messege" 
+                class="messege-input"
+                cols="50"
+                rows="5"
+                placeholder="Digite sua mensagem"
+                required
+                autocomplete="off"></textarea>
+            </div>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <!-- rodapé -->
+    <footer id="footer" class="footer">
+        <h3>Vitória Dorneles</h2>
+        <p>RU:4604971</p>
+    </footer>
+    
+    <!-- carregando biblioteca Email JS para envio/recebimento do formulário-->
+    <script 
+    type="text/javascript" 
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <!--inicializando emailjs-->
+    <script type="text/JavaScript">
+        (function () {
+            emailjs.init({
+                publicKey: "NGNNxupn1-_ABBI1J"
+            });
+        })();
+    </script>
+
+</body>
+    <!-- incluindo js no html -->
+    <script src="./js/script.js"></script>
+</html>
