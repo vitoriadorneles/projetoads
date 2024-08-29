@@ -1,0 +1,30 @@
+/* estilizando a seção de formação */
+.education {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
+    scroll-margin-top: 32rem;
+}
+
+
+.education .education-content {
+    max-width: 100%;
+    margin-bottom: 8rem;
+}
+
+.education .education-content .title{
+    font-family: var( --font-quicksand);
+    font-size: 5rem;
+}
+
+.education .education-content ul {
+    margin-bottom: 6rem;
+}
+
+.education .education-content ul li{
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 2.5rem;
+    font-weight: 500;
+}

@@ -1,0 +1,32 @@
+/* estilizando o menu de navegação */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+    background-color: var(--ligth);
+}
+
+.navbar .navbar-content {
+    padding: 3rem 4rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .navbar-content .navbar-links li {
+    display: inline-block;
+    margin-right: 5rem;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: 500;
+    transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    
+}
+
+/* estilização para quando passar o mause*/
+.navbar .navbar-content .navbar-links li:hover {
+    cursor: pointer;
+    color: #7b2cbf;
+    transform: scale(1.1);
+}

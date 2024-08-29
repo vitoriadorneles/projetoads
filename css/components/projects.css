@@ -1,0 +1,79 @@
+/*Estilizando a seção de projetos*/
+
+.projects {
+    margin-bottom: 16rem;
+    scroll-margin-top: 15rem;
+    background-color: var(--white);
+
+}
+
+.projects .projects-content {
+    max-width: 100%;
+    padding: 1rem; 
+    margin-top: 10rem;
+
+}
+
+.projects .projects-content h2 {
+    font-family: var(--font-quicksand);
+    font-size: 3rem;
+    padding: 1rem;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+
+}
+
+.projects .projects-content p{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.projects ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    
+}
+
+/*colocando eles em posição reversa*/
+.projects ul li.reversed{
+    flex-direction: row-reverse;
+    background-color: #f2ebfb;
+    margin: 1rem 5rem 1rem;
+}
+
+.projects ul li h3{
+    font-size: 3rem;
+    padding: 1rem;
+    margin-left: 10rem;
+}
+
+.projects ul li p{
+    max-width: 60%;
+    padding: 1rem;
+    font-size: 2rem;
+    margin-left: 10rem;
+}
+
+.projects ul li img {
+    width: 70rem;
+    height: auto;
+    padding: 2rem;
+}
+
+.projects ul li .image {
+    margin-left: 5rem;
+    
+}
+
+
+
+
+

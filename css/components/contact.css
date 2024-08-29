@@ -1,0 +1,104 @@
+/*estilizando container do formulario*/
+.contact {
+    padding: 1rem;
+    font-size: 2rem;
+    margin-top: -1rem;
+    margin-bottom: 15rem;
+    scroll-margin-top: 20rem;
+}
+
+.contact h3 {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-family: var(--font-quicksand);
+}
+
+.contact p{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+
+.required-field {
+    color: red;
+    font-size: 3rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form .contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    
+}
+
+input {
+    text-decoration: none;
+    border: 1px solid var(--ligth);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+/*colocando estilizaçãi quando passa o mouse*/
+input:hover {
+    border: 1px solid var(--dark);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="file"] {
+    width: 60rem;
+    height: 5rem;
+    border-radius: 5px;
+    color: var(--dark);
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+
+
+.contact-container textarea{
+    width: 60rem;
+    border: 1px solid var(--light-purple);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+/*colocando estilizaçãi quando passa o mouse*/
+.contact-container textarea:hover{
+    border: 1px solid var(--dark);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+input[type="submit"] {
+    width: 10em;
+    height: 5rem;
+    margin: 1rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+
+}
+
+input[type="submit"]:hover {
+    background-color: var(--dark);
+    color: var(--ligth);
+    cursor: pointer;
+    transition: 0.2s ease-in-out,  0.2s ease-in-out;
+}

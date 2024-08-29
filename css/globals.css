@@ -1,0 +1,55 @@
+/*estilizando o projeto em geral*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: var(--font-raleway);
+}
+
+html {
+    font-size: 62.5%;
+    color: var(--dark);
+}
+
+body {
+    font-size: 1.6rem;
+    margin-top: 15rem;
+    background-color: var(--light-purple);
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+h1 {
+    font-size: 4.4rem;
+    font-weight: 700;
+    
+}
+
+.secundary-title {
+    font-size: 3.2rem;
+}
+
+
+.max-width {
+    width: 100%;
+    max-width: 120rem;
+    padding: 0 4rem;
+    margin: 0 auto;
+    margin-bottom: 20rem;
+}
