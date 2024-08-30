@@ -21,6 +21,9 @@ header {
 }
 
 .header h2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     max-width: 100%;
     font-size: 4.5rem;
     margin-bottom: 15rem;
